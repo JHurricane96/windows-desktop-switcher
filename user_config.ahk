@@ -179,3 +179,5 @@
 #+Numpad7::MoveCurrentWindowToDesktop(7)
 #+Numpad8::MoveCurrentWindowToDesktop(8)
 #+Numpad9::MoveCurrentWindowToDesktop(9)
+
+#!p::ToggleCurrentWindowPin()
