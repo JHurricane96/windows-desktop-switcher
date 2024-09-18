@@ -28,7 +28,7 @@ You can also customize the hotkeys and actions as described in the section below
 This script creates more convenient hotkeys for switching virtual desktops in Windows 10. I built this to better mirror the mapping I use on linux (with dwm), and it's always annoyed me that Windows does not have better hotkey support for this feature (for instance, there's no way to go directly to a desktop by number).
 
 ## Running
-[Install AutoHotkey](https://autohotkey.com/download/) v1.1 or later, then run the `desktop_switcher.ahk` script (open with AutoHotkey if prompted). You can disable the switching animation by opening "Adjust the appearance and performance of Windows" and then unselecting the checkmark "Animate windows when minimizing and maximizing".
+[Install AutoHotkey v1.1](https://autohotkey.com/download/1.1/AutoHotkey_1.1.37.02_setup.exe) (v2 is [not supported](https://github.com/pmb6tz/windows-desktop-switcher/issues/93) at this time), then run the `desktop_switcher.ahk` script (open with AutoHotkey if prompted). You can disable the switching animation by opening "Adjust the appearance and performance of Windows" and then unselecting the checkmark "Animate windows when minimizing and maximizing".
 
 ### Notes about Windows 1809/1903≤ Updates
 This project relies partly on [VirtualDesktopAccessor.dll](https://github.com/Ciantic/VirtualDesktopAccessor) (for moving windows to other desktops). This binary is included in this repository for convenience, and was recently updated to work with the 1809/1903≤ updates. 
@@ -88,7 +88,11 @@ Solution is described in [#66](https://github.com/pmb6tz/windows-desktop-switche
 
 #### How to create a specific number of desktops after the application is started?
 
-Solution is described in [#69](https://github.com/pmb6tz/windows-desktop-switcher/issues/69#issuecomment-786976955)
+Solution is described in [#69](https://github.com/pmb6tz/windows-desktop-switcher/issues/69#issuecomment-786976955).
+
+#### How to see at a glance, which of the desktops am I currently on (i.e. show a number of the current desktop as a tray bar icon)?
+
+Solution is described in [#50](https://github.com/pmb6tz/windows-desktop-switcher/issues/50#issuecomment-935875918).
 
 ## Credits
 
